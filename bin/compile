@@ -16,6 +16,3 @@ if [ -d "$3" ]; then
         :
     done
 fi
-
-# Just build the static site
-bundle exec middleman build --clean --verbose
